@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.box{
+    width: 40vw;
+    height: 20vh;
+    border: 3px solid white;
+}
+
+.btn{
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(0, 35, 26);
+    color: #fff;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
